@@ -1,117 +1,117 @@
 var texts = {
     appTitle: [ `Open Card Sorter` ],
-    introTitle: [ `Vamos começar%userNameComma?` ],
+    introTitle: [ `Let's Start%userNameComma?` ],
     introText: [
-        `Nesta atividade de card sorting, queremos entender melhor como você relaciona algumas informações para projetarmos uma experiência do usuário melhor.`,
-        `Ela dura em torno de <b>10 a 15 minutos</b> para ser completada. É rapidinho e vai nos ajudar muito!`,
+        `In this card sorting activity, we want to better understand how you relate some information so that we can design a better user experience.`,
+        `It takes around <b>10 to 15 minutes</b> to complete. It's quick and will help us a lot!`,
     ],
     introPreAuth: [
-        `Para começar, como posso te chamar?`,
+        `Before we start, how can I call you?`,
     ],
-    start: [`Iniciar`],
-    nameInputPlaceholder: [`Digite seu nome`],
-    // googleConnectPlaceholder: [`Aguarde...`],
-    googleAuthConnect: [ `Conectar com Google` ],
-    googleAuthConnectAs: [ `Continuar como` ],
-    googleAuthDisconnect: [ `Desconectar` ],
-    sidebarTitle: [`Cartões`],
-    sidebarSubtitle: [`%n de %n cartões agrupados.`],
+    start: [`Start`],
+    nameInputPlaceholder: [`Type your Name`],
+    // googleConnectPlaceholder: [`Wait...We are almost there`],
+    googleAuthConnect: [ `Connect with Google` ],
+    googleAuthConnectAs: [ `Connect as...` ],
+    googleAuthDisconnect: [ `Disconnect` ],
+    sidebarTitle: [`Cards`],
+    sidebarSubtitle: [`%n of %n grouped cards.`],
 
-    newCardGroup: [`Arraste para criar um novo grupo`],
-    cardTopDivider: [`<strong>Topo</strong>: mais relevante`],
-    cardBottomDivider: [`<strong>Fundo</strong>: menos relevante`],
-    cardGroupTitlePlaceholder: [`Dê um nome ao grupo`],
+    newCardGroup: [`Drag to create a new group`],
+    cardTopDivider: [`<strong>Top</strong>: more relevant`],
+    cardBottomDivider: [`<strong>Bottom</strong>: less relevant`],
+    cardGroupTitlePlaceholder: [`Give a name to this group`],
 
     steps: [
         {
-            title: [`Passo 1`],
+            title: [`Step 1`],
             text: [
-                `Dá uma olhada nos cartões ao lado, %userName.`,
-                `Sua tarefa será organizar esses cards em grupos de similaridade que façam sentido para você.`,
-                `Arraste um dos cards para a direita para criar seu primeiro grupo.`
+                `Take a look at the cards on the left side, %userName.`,
+                `Your task will be to organize these cards into groups that make sense to you.`,
+                `Drag one of the cards to the left to create your first group.`
             ]
         },
         {
-            title: [`Passo 2`],
+            title: [`Step 2`],
             text: [
-                `Mova os cartões ao lado até que todos estejam agrupados. Agrupe cartões que você considera relacionados. Você pode criar quantos grupos quiser, inclusive grupos com apenas 1 cartão!`,
-                `Lembre-se, %userName: não tem certo ou errado, você escolhe como agrupar os cartões de acordo com o que fizer mais sentido para você!`
+                `Move the cards to the side until they are all grouped together. Group cards that you think are related. You can create as many groups as you like, including groups with just 1 card!`,
+                `Remember, %userName: there's no right or wrong, you choose how to group the cards according to what makes the most sense for you!`
             ]
         },
         {
-            title: [`Passo 3`],
+            title: [`Step 3`],
             text: [
-                `Revise os grupos e <strong>dê um nome para cada um</strong> que você criou. Pense em um título que represente os cartões contidos nele.`,
+                `Review the groups and <strong>name each one</strong> you created. Think of a title that represents the cards it contains.`,
             ]
         },
         {
-            title: [`Passo 4`],
+            title: [`Step 4`],
             text: [
-                `Certifique-se de ordenar os cards mais relevantes para cima e os menos relevantes para baixo em cada grupo.`,
+                `Make sure to order the most relevant cards on the top and the least relevant ones on the bottom in each group.`,
             ]
         },
         {
-            title: [`Passo 5`],
+            title: [`Step 5`],
             text: [
-                `Parece que ficou bom, %userName! Dê uma revisada final e depois é só clicar em “Finalizar” ali em cima para terminar.`,
+                `It looks great, %userName! Give a final review and then just click “Finish” up there to finish.`,
             ]
         }
     ],
-    stepsRemainingTitle: [`Está faltando algum passo para você completar sua atividade`],
-    stepsRemainingText: [`Verifique se você completou a tarefa abaixo:`],
+    stepsRemainingTitle: [`You are missing a step for you to complete your activity`],
+    stepsRemainingText: [`Make sure you have completed the task below:`],
 
-    endingTitle: [ `Obrigado%userNameComma!` ],
+    endingTitle: [ `Thank you%userNameComma!` ],
     endingText: [
-        `Sua atividade vai ajudar bastante na construção de uma experiência digital incrível.`,
-        `Muito obrigado pela participação!`,
+        `Your activity will help a lot in building an amazing digital experience.`,
+        `Thanks a lot for participating!`,
     ],
 
-    infoButton: [ `Instruções` ],
-    finishButton: [ `Finalizar` ],
-    resetButton: [ `Reiniciar` ],
+    infoButton: [ `Instructions` ],
+    finishButton: [ `Finish` ],
+    resetButton: [ `Restart` ],
 
-    anonymousLabel: [ `Anônimo` ],
+    anonymousLabel: [ `Anonymous` ],
 
     alerts: {
         generic: {
             buttons: [
-                { class: [`btn-primary`], text: [`Fechar`], action: "close" }
+                { class: [`btn-primary`], text: [`Close`], action: "close" }
             ]
         },
         steps: {
             title: [`Instruções`],
             buttons: [
-                { class: [`btn-primary`], text: [`Fechar`], action: "close" }
+                { class: [`btn-primary`], text: [`Close`], action: "close" }
             ]
         },
         noKeys: {
-            title: [`Código App Script não encontrado`],
+            title: [`App Script code not found`],
             text: [
-                'Verifique se você gerou o link corretamente e reinicie a página.'
+                'Check that you generated the link correctly and restart the page.'
             ],
             buttons: [
-                { class: [`btn-primary`], text: [`Fechar`], action: "close" }
+                { class: [`btn-primary`], text: [`Close`], action: "close" }
             ]
         },
         noSheet: {
-            title: [`Falha ao conectar`],
+            title: [`Failed to connect`],
             text: [
-                `Não foi possível acessar os dados para iniciar este card sorting. Verifique o link ou tente novamente atualizando a página.`,
+                `Unable to access data to start this card sorting. Check the link or try again by refreshing the page.`,
             ],
             buttons: [
-                { class: [`btn-primary`], text: [`Tentar novamente`], action: "refresh" },
-                { class: [`btn-secondary`], text: [`Fechar`], action: "close" },
+                { class: [`btn-primary`], text: [`Try Again`], action: "refresh" },
+                { class: [`btn-secondary`], text: [`Close`], action: "close" },
             ]
         },
         saveFail: {
-            title: [`Falha ao salvar atividade`],
+            title: [`Failed to save activity`],
             text: [
-                `Não foi possível acessar o servidor.`,
-                `Aguarde um pouco e tente novamente atualizando a página.`
+                `Could not access the server.`,
+                `Please wait a while and try again by refreshing the page.`
             ],
             buttons: [
-                { class: [`btn-primary`], text: [`Fechar`], action: "close" },
-                { class: [`btn-secondary`], text: [`Reiniciar`], action: "refresh" },
+                { class: [`btn-primary`], text: [`Close`], action: "close" },
+                { class: [`btn-secondary`], text: [`Restart`], action: "refresh" },
             ]
         },
     },
